@@ -55,7 +55,7 @@ public class ContactsPageTest extends TestBase{
 	{
 		contactpage = 	homepage.clickContact();
 	boolean flag = contactpage.verifyContactPage();
-	Assert.assertTrue(false);
+	Assert.assertTrue(flag);
 	}
 	
 	@DataProvider
